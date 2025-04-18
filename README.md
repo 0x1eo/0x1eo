@@ -1,5 +1,5 @@
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=ofvcb8g2g0vbl5k9x50l98zya&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&bar_color=5705d1&bar_color_cover=false)](https://github.com/kittinan/spotify-github-profile)
-
+## Now playing:
+:[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=ofvcb8g2g0vbl5k9x50l98zya&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=true&bar_color=5705d1&bar_color_cover=false)](https://github.com/kittinan/spotify-github-profile):
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/0x1eo) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/0x1eo) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/0x1eo) 
