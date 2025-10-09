@@ -43,7 +43,7 @@ Here are a few projects I'm particularly proud of.
 | **Home Network & Security Lab** | My personal, self-hosted lab for experimenting with network services and security tools on Raspberry Pis. | `Pi-hole`, `ntopng`, `Netdata`, `WireGuard`, `OpenVPN`, `Linux Admin`             |
 | **High-Availability Web Cluster** | Built a redundant e-commerce cluster with load balancing and automatic failover on Debian VMs.          | `NGINX`, `MariaDB Cluster`, `GlusterFS`, `Bash`                                   |
 | **Penetration Testing Lab** | Conducted reconnaissance, exploited vulnerabilities (Log4j, EternalBlue), and exfiltrated data.         | `Nmap`, `Metasploit`, `pfSense`, `Suricata`, `Wireshark`                          |
-| **Diet Platform Pro (Full-Stack)** | A full-stack platform connecting nutritionists and patients with JWT auth and real-time chat.           | `Node.js`, `Express`, `Angular`, `MongoDB`, `Socket.IO`, `REST APIs`            |
+| **Diet Platform (Full-Stack)** | A full-stack platform connecting nutritionists and patients with JWT auth and real-time chat.           | `Node.js`, `Express`, `Angular`, `MongoDB`, `Socket.IO`, `REST APIs`            |
 | **Playlix Official Website** | Designed and developed a responsive, fast-loading company website as a freelance project.               | `Vue.js`, `JavaScript`, `HTML/CSS`                                              |
 
 ---
