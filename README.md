@@ -89,7 +89,7 @@ Here are a few projects I'm particularly proud of.
 
 ### 📊 My GitHub Journey
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0x1eo&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
+  <img src="https://statings.vercel.app/api/top-langs/?username=0x1eo&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
 </p>
 
 ---
