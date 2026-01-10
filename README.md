@@ -1,98 +1,198 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40px"/>
-  <h1>Hey, I'm Leandro Afonso (0x1eo)</h1>
-  <p>
-    <b>Cybersecurity Student • Defensive Security & Systems Engineering</b>
-  </p>
-  <p>
-    I'm a defensive-security-focused student with hands-on experience building resilient Linux systems, deploying network security tools like firewalls and IPS, and engineering high-availability services. My passion is in building and hardening digital infrastructure, from my own self-hosted services to full-stack web applications. I'm always looking for opportunities to improve monitoring, automate operations, and make systems more robust.
-  </p>
-  <p align="center">
-    <a href="https://0x1eo.dev" target="_blank">
-      <img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white" />
-    </a>
-    <a href="https://www.linkedin.com/in/0x1eo" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-    </a>
-    <a href="mailto:leo@0x1eo.dev">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-    </a>
-  </p>
+<div align="center">
+
+<!-- Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Leandro%20Afonso&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=0x1eo%20%7C%20Defensive%20Security%20%E2%80%A2%20Systems%20Engineering&descSize=18&descAlignY=55"/>
+
+<p>
+  <a href="https://0x1eo.dev" target="_blank">
+    <img src="https://img.shields.io/badge/0x1eo.dev-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website"/>
+  </a>
+  <a href="https://www.linkedin.com/in/0x1eo" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:leo@0x1eo.dev">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
+
+<img src="https://komarev.com/ghpvc/?username=0x1eo&style=for-the-badge&color=302b63" alt="Profile Views"/>
+
 </div>
 
 ---
 
-### 🛡️ Core Focus & Expertise
+### 👋 About Me
 
-My work and studies revolve around three main pillars:
+I'm a cybersecurity student who believes the best defense is understanding how systems *actually* work. 
 
--   **Hardening Digital Fortresses (Defensive Security):** Designing and deploying layered security controls. I use my home lab as a personal proving ground for tools like `pfSense`, `Suricata`, and `Snort` to monitor, detect, and respond to threats in real-time.
-
--   **Building Resilient Systems (Systems Engineering):** Architecting and maintaining high-availability infrastructure. I have practical experience building redundant clusters with `NGINX`, `MariaDB Cluster`, and `GlusterFS`, and I'm comfortable containerizing applications with `Docker`.
-
--   **Developing Secure by Design (Software Engineering):** Writing clean, secure, and efficient code. I enjoy working across the full stack, from low-level systems programming in `C` and `Go` to building RESTful APIs in `Node.js` and frontends in `Vue` or `Angular`.
+I build tools that scratch my own itch-compliance auditors, remediation engines, and APIs that make defensive security
+less painful. When I'm not hardening infrastructure, I'm probably writing full-stack apps or experimenting with
+low-level systems programming in C or Go.
 
 ---
 
-### 🚀 Project Highlights
+<h2 align="center">🧵 The Moirai Suite</h2>
+<p align="center"><em>Named after the Greek Fates - the weavers of destiny who spin, measure, and cut the thread of life.</em></p>
 
-Here are a few projects I'm particularly proud of.
+<div align="center">
 
-| Project                                    | Description                                                                                             | Key Technologies                                                                |
-| ------------------------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| **Home Network & Security Lab** | My personal, self-hosted lab for experimenting with network services and security tools on Raspberry Pis. | `Pi-hole`, `ntopng`, `Netdata`, `WireGuard`, `OpenVPN`, `Linux Admin`             |
-| **High-Availability Web Cluster** | Built a redundant e-commerce cluster with load balancing and automatic failover on Debian VMs.          | `NGINX`, `MariaDB Cluster`, `GlusterFS`, `Bash`                                   |
-| **Penetration Testing Lab** | Conducted reconnaissance, exploited vulnerabilities (Log4j, EternalBlue), and exfiltrated data.         | `Nmap`, `Metasploit`, `pfSense`, `Suricata`, `Wireshark`                          |
-| **Diet Platform (Full-Stack)** | A full-stack platform connecting nutritionists and patients with JWT auth and real-time chat.           | `Node.js`, `Express`, `Angular`, `MongoDB`, `Socket.IO`, `REST APIs`            |
-| **Playlix Official Website** | Designed and developed a responsive, fast-loading company website as a freelance project.               | `Vue.js`, `JavaScript`, `HTML/CSS`                                              |
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│   CLOTHO ───────────────► LACHESIS ───────────────► ATROPOS                  │
+│  (Spinner)               (Measurer)                (Cutter)                  │
+│                                                                              │
+├──────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│   Audits hosts            Tracks drift             Executes cuts             │
+│   against YAML            over time with           when systems              │
+│   baseline                entropy scores           drift too far             │
+│                                                                              │
+├──────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│   Python                  Node + Angular           Go                        │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+| Project | Role | Description | Tech |
+|:-------:|:----:|:------------|:-----|
+| [**Clotho**](https://github.com/0x1eo/clotho) | 🧶 The Spinner | SSH into hosts, audit against YAML baseline, generate PDF reports with ISO 27002 mapping | `Python` `LaTeX` `SSH` |
+| [**Lachesis**](https://github.com/0x1eo/lachesis) | 📏 The Measurer | Ingest Clotho reports, track compliance drift with entropy scores and charts, alert when things "fray" | `Node.js` `Angular` `MariaDB` |
+| [**Atropos**](https://github.com/0x1eo/atropos) | ✂️ The Cutter | When entropy exceeds threshold, execute the cut: isolate networks, pause containers, revert snapshots | `Go` `HMAC` `SSH` |
+
+> 💡 **Why I built this:** I got tired of manually SSH-ing into my servers to check if configs drifted. Now my
+> infrastructure tells me when it's unhealthy-and fixes itself.
 
 ---
 
-### 🛠️ My Digital Toolkit
+### 🚀 Other Projects
 
-**Languages:**
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">cwiz</h3>
+      <p align="center">
+        <a href="https://github.com/0x1eo/cwiz" target="_blank">
+          <img src="https://img.shields.io/badge/View_Repo-24243e?style=for-the-badge&logo=github" alt="cwiz repo"/>
+        </a>
+      </p>
+      <p align="center">
+        Lightweight, dependency-free <strong>C library</strong> for WiZ smart lights. Raw UDP, no Python runtime, designed for embedded environments and system daemons.
+      </p>
+      <p align="center"><code>C</code> <code>UDP</code> <code>IoT</code> <code>POSIX</code></p>
+    </td>
+    <td width="50%">
+      <h3 align="center">HAWC</h3>
+      <p align="center">
+        <a href="https://github.com/0x1eo/HAWC" target="_blank">
+          <img src="https://img.shields.io/badge/View_Repo-24243e?style=for-the-badge&logo=github" alt="HAWC repo"/>
+        </a>
+      </p>
+      <p align="center">
+        <strong>High-Availability Web Cluster</strong> with HAProxy load balancing, Corosync/Pacemaker failover, GlusterFS replication, and RAID storage.
+      </p>
+      <p align="center"><code>HAProxy</code> <code>GlusterFS</code> <code>Pacemaker</code> <code>RAID</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">FootballSim</h3>
+      <p align="center">
+        <a href="https://github.com/0x1eo/FootballSim" target="_blank">
+          <img src="https://img.shields.io/badge/View_Repo-24243e?style=for-the-badge&logo=github" alt="FootballSim repo"/>
+        </a>
+      </p>
+      <p align="center">
+        Comprehensive football league management & simulation in <strong>Java</strong>. Implements Strategy, Factory, Observer, and MVC patterns.
+      </p>
+      <p align="center"><code>Java</code> <code>Maven</code> <code>Design Patterns</code></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🛠️ Tech Stack
+
+<details open>
+<summary><strong>Languages</strong></summary>
+<br/>
 <p>
-  <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-  <img src="https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
+  <img src="https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white" alt="Zig"/>
 </p>
+</details>
 
-**Backend, Databases & Web:**
+<details open>
+<summary><strong>Backend & Databases</strong></summary>
+<br/>
 <p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" />
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
 </p>
+</details>
 
-**Infrastructure & Security Tools:**
+<details open>
+<summary><strong>Frontend</strong></summary>
+<br/>
 <p>
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
-  <img src="https://img.shields.io/badge/AlmaLinux-CF1F2E?style=for-the-badge&logo=almalinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rocky_Linux-10B981?style=for-the-badge&logo=rockylinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" />
-  <img src="https://img.shields.io/badge/Suricata-A32A2A?style=for-the-badge&logo=suricata&logoColor=white" />
-  <img src="https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular"/>
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
 </p>
+</details>
+
+<details open>
+<summary><strong>Infrastructure & Security</strong></summary>
+<br/>
+<p>
+  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" alt="Arch Linux"/>
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="NGINX"/>
+  <img src="https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white" alt="pfSense"/>
+  <img src="https://img.shields.io/badge/Suricata-EF3B2D?style=for-the-badge&logo=suricata&logoColor=white" alt="Suricata"/>
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
+  <img src="https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white" alt="WireGuard"/>
+</p>
+</details>
 
 ---
 
-### 📊 My GitHub Journey
-<p align="center">
-  <img src="https://statings.vercel.app/api/top-langs/?username=0x1eo&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
-</p>
+### 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=0x1eo&theme=midnight-purple&hide_border=true&ring=302b63&fire=302b63&currStreakLabel=302b63" alt="GitHub Streak"/>
+</div>
+
+<div align="center">
+  <img src="https://statings.vercel.app/api/top-langs/?username=0x1eo&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages"/>
+</div>
 
 ---
 
-### 🎧 Vibes on Repeat
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=ofvcb8g2g0vbl5k9x50l98zya&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=true&bar_color=6540de&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=ofvcb8g2g0vbl5k9x50l98zya&redirect=true)
+### 🎧 Currently Playing
+
+<div align="center">
+  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=ofvcb8g2g0vbl5k9x50l98zya&redirect=true">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=ofvcb8g2g0vbl5k9x50l98zya&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=true&bar_color=6540de&bar_color_cover=false" alt="Spotify"/>
+  </a>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=100&section=footer"/>
+</div>
