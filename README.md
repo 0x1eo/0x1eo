@@ -174,10 +174,6 @@ low-level systems programming in C or Go.
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=0x1eo&theme=midnight-purple&hide_border=true&ring=302b63&fire=302b63&currStreakLabel=302b63" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
   <img src="https://statings.vercel.app/api/top-langs/?username=0x1eo&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages"/>
 </div>
 
